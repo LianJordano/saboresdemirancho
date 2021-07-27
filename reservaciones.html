@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaboresDeMiCasa</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lexend:wght@100;300;400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/36668bc8ff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="contenedor">
+            <nav class="navegacion">
+                <a class="navegacion__link" href="index.html">Inicio</a>
+                <span class="navegacion__span"></span>
+                <a class="navegacion__link" href="nuestrosPlatos.html">Nuestros Platos</a>
+                <span class="navegacion__span"></span>
+                <a class="navegacion__link " target="_blank" href="reservaciones.html">Reservaciones</a>
+                <span class="navegacion__span"></span>
+            </nav>
+            <div class="barra">
+                <a href="" class="logo">
+                    <h1 class="logo__nombre no-margin">Sabores de mi casa</h1>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-reserva">
+
+        <form method="post" class="formulario-reserva">
+
+            <div class="formulario-reserva__bloque">
+                <span style="position: relative; top:23px;color:#fc5818;font-weight: bold;"> Fecha</span>
+                <input required class="formulario_reserva__input" type="date" name="" id="" placeholder="Fecha">
+            </div>
+
+            <div class="formulario-reserva__bloque">
+                <span style="position: relative; top:23px;color:#fc5818;font-weight: bold;"> Comesales</span>
+                <input required class="formulario_reserva__input" type="number" name="" id="" value="1" placeholder="" min="0" max="6">
+            </div>
+
+            <div class="formulario-reserva__bloque">
+                <span style="position: relative; top:23px;color:#fc5818;font-weight: bold;"> Hora</span>
+                <input required class="formulario_reserva__input" type="time" name="" id="" placeholder="">
+            </div>
+
+            <div class="formulario-reserva__bloque">
+                <input type="submit" value="Reservar" class="boton_reserva">
+            </div>
+
+        </form>
+
+    </div>
+
+    <footer class="footer">
+        <h4 class="footer__h4">Nuestras redes sociales</h4>
+        <div class="footer__contenedor">
+            <div class="footer__div">
+                <a href="" target="_blank"> <i class="fab fa-facebook"></i> </a>
+                <p class="footer__p">Faceebok</p>
+            </div>
+            <div class="footer__div">
+                <a href="" target="_blank"> <i class="fab fa-instagram"></i></a>
+                <p class="footer__p">Instagram</p>
+            </div>
+            <div class="footer__div">
+                <a href="" target="_blank"> <i class="fab fa-tiktok"></i></a>
+                <p class="footer__p">TikTok</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
